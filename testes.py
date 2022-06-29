@@ -4,9 +4,15 @@ comp_idadestr = input("Digite a idade da outra pessoa: ")
 
 sua_idade = int(sua_idadestr)
 comp_idade = int(comp_idadestr)
+idadesiguais = sua_idade == comp_idade
+maisnovo = sua_idade < comp_idade
+maisvelho = sua_idade > comp_idade
 
-if(sua_idade > comp_idade):
-    print("Você é o mais velho")
+if(idadesiguais):
+    print("Vocês tem a mesma idade!")
 else:
-    print("você é mais novo")
+    if(maisnovo):
+        print("Você é mais novo que a outra pessoa")
+    elif (maisvelho):
+        print("Você é mais velho que a outra pessoa")
 
