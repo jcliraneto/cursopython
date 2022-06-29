@@ -5,13 +5,13 @@ print("*********************************")
 numero_secreto = 42
 
 chute_str = input("Digite seu numero: ")
+print("você digitou ", chute_str)
 chute = int(chute_str)
 
-print("você digitou ", chute_str)
-
-if(numero_secreto == chute_str):
-    print("Você Acertou!! Malandrão heim!")
+if(numero_secreto == chute):
+    print("Você Acertou!")
 else:
-    print("você errou seu burro... caralho heim")
+    print("você Errou!")
 
+print("Fim do jogo!")
 
