@@ -4,9 +4,8 @@ print("*********************************")
 
 numero_secreto = 42
 
-chute_str = input("Digite seu numero: ")
-print("você digitou ", chute_str)
-chute = int(chute_str)
+chute = int(input("Digite seu numero: "))
+print("você digitou ", chute)
 acertou = numero_secreto == chute
 chutemaior = chute > numero_secreto
 chutemenor = chute < numero_secreto
