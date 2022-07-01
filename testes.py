@@ -1,8 +1,6 @@
 print("***Comparador de idades mk1***")
-sua_idadestr = input("Digite sua idade: ")
-comp_idadestr = input("Digite a idade da outra pessoa: ")
-sua_idade = int(sua_idadestr)
-comp_idade = int(comp_idadestr)
+sua_idade = int(input("Digite sua idade: "))
+comp_idade = int(input("Digite a idade da outra pessoa: "))
 idadesiguais = sua_idade == comp_idade
 maisnovo = sua_idade < comp_idade
 maisvelho = sua_idade > comp_idade
