@@ -6,7 +6,7 @@ numero_secreto = 42
 
 chute = int(input("Digite seu numero: "))
 print("você digitou ", chute)
-acertou = numero_secreto == chute
+acertou    = chute == numero_secreto
 chutemaior = chute > numero_secreto
 chutemenor = chute < numero_secreto
 
