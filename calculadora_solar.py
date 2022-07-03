@@ -1,12 +1,18 @@
-print("*****Calculadora solar mk1*****")
+print("*****Calculadora solar mk2*****")
 
-calcular = (input("Digite a unidade que deseja calcular. (KWH ou KWP): "))
+escolhauser = int(input("Escolha 1 (kWp) ou 2 (kWh) para calcular: "))
+kwp = escolhauser == 1
+kwh = escolhauser == 2
 
-if (calcular = KWH):
-
-    KWH = int(input("Digite a quantidade de kWh: "))
-    indicesolar = int(input("Digite o indice de irradiação solar: "))
-    KWP = float(KWH / indicesolar)
-
-    print("{}kWh corresponde a {:.3}kWp".format(KWH, KWP))
-    print("Fim do programa!")
+if(kwp):
+    indiceirra = int(input("Digite o indice de irradiação do local: "))
+    khwfor = int(input("Digite o valor em kWh: "))
+    khpcalc = khwfor/indiceirra
+    print("{}kWh equivalem a {:.2f}kWp".format(khwfor, khpcalc))
+    print("Programa encerrado!")
+else:
+    indiceirra = int(input("Digite o indice de irradiação do local: "))
+    kwpfor = float(input("Digite o valor em kWp: "))
+    kwhcalc = kwpfor*indiceirra
+    print("{:.2f}kWp equivalem a {}kWh".format(kwpfor, kwhcalc))
+    print("Programa encerrado!")
