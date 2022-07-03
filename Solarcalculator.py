@@ -1,4 +1,4 @@
-print("*****Calculadora solar mk2*****")
+print("*****SolarcalcPY mk3*****")
 
 escolhauser = int(input("Escolha 1 (kWp) ou 2 (kWh) para calcular: "))
 kwp = escolhauser == 1
