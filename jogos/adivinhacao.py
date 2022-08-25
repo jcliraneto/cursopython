@@ -2,7 +2,7 @@ import random
 
 
 print("*********************************")
-print("Bem vindo ao jogo de adivinhação!")
+print("Bem vindo ao jogo Adivinhação!")
 print("*********************************")
 
 numero_secreto = random.randrange(1,101)
