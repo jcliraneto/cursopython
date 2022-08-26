@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos/adivinhacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/adivinhacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogos/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/forca.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogos/jogos.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/jogos.py" afterDir="false" />
     </list>
@@ -249,7 +250,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661459276133</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="preparação do hub de jogos.py">
+      <created>1661459704295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661459704295</updated>
+    </task>
+    <task id="LOCAL-00015" summary="preparação de arquivo">
+      <created>1661459749010</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661459749010</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1661459758525</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661459758525</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +295,8 @@
     <MESSAGE value="exibição da pontuação ao fim do jogo quando o numero secreto não é encontrado" />
     <MESSAGE value="movendo arquivo para pasta jogos" />
     <MESSAGE value="criação do arquivo forca.py" />
+    <MESSAGE value="preparação do hub de jogos.py" />
+    <MESSAGE value="preparação de arquivo" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
