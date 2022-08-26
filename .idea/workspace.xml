@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos/adivinhacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/adivinhacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/forca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos/jogos.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/jogos.py" afterDir="false" />
-    </list>
+    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661459758525</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="implementação do HUB dos jogos (arquivo jogos.py) criação das funções e modulação dos codigos">
+      <created>1661528537543</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661528537543</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1661528556825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661528556825</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +306,7 @@
     <MESSAGE value="criação do arquivo forca.py" />
     <MESSAGE value="preparação do hub de jogos.py" />
     <MESSAGE value="preparação de arquivo" />
+    <MESSAGE value="implementação do HUB dos jogos (arquivo jogos.py) criação das funções e modulação dos codigos" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
