@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update" />
+    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="criação dos arquivos para desenvolvimento de calculadora de conversão para energia solar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora solar/kwh.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora solar/kwh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculadora solar/kwp.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora solar/kwp.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,24 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/zeca1/OneDrive/Documentos/alura/cursopython/jogos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zeca1/OneDrive/Documentos/alura/cursopython/jogos&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zeca1\OneDrive\Documentos\alura\cursopython\jogos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zeca1\OneDrive\Documentos\alura\cursopython\avulsos e testes" />
       <recent name="C:\Users\zeca1\OneDrive\Documentos\alura\cursopython\jogos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jogos">
+  <component name="RunManager" selected="Python.calculadora_solar">
     <configuration name="adivinhacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cursopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="comparador_idades" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="calculadora_solar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cursopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculadora solar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comparador_idades.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kwh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cursopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +129,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculadora solar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculadora solar/kwh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kwp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cursopython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculadora solar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculadora solar/kwp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,10 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calculadora_solar" />
+        <item itemvalue="Python.kwp" />
+        <item itemvalue="Python.kwh" />
         <item itemvalue="Python.jogos" />
         <item itemvalue="Python.adivinhacao" />
-        <item itemvalue="Python.testes" />
-        <item itemvalue="Python.comparador_idades" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661528556825</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="alteração de diretorios de arquivos e updates">
+      <created>1661530559404</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530559404</updated>
+    </task>
+    <task id="LOCAL-00020" summary="criação dos arquivos para desenvolvimento de calculadora de conversão para energia solar">
+      <created>1661530791523</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530791523</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +350,8 @@
     <MESSAGE value="preparação de arquivo" />
     <MESSAGE value="implementação do HUB dos jogos (arquivo jogos.py) criação das funções e modulação dos codigos" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="alteração de diretorios de arquivos e updates" />
+    <MESSAGE value="criação dos arquivos para desenvolvimento de calculadora de conversão para energia solar" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação dos arquivos para desenvolvimento de calculadora de conversão para energia solar" />
   </component>
 </project>
