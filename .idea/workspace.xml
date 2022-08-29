@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="copia de segurança de código funcional">
+    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" afterDir="false" />
     </list>
@@ -341,7 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661723485723</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="implementação do laço de repetição">
+      <created>1661727440113</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661727440113</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update">
+      <created>1661727460676</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661727460676</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,8 +385,9 @@
     <MESSAGE value="alteração de diretorios de arquivos e updates" />
     <MESSAGE value="criação dos arquivos para desenvolvimento de calculadora de conversão para energia solar" />
     <MESSAGE value="criação da logica de programação dos arquivos calculadora_solar.py, kwp.py e kwh.py" />
-    <MESSAGE value="update" />
     <MESSAGE value="copia de segurança de código funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="copia de segurança de código funcional" />
+    <MESSAGE value="implementação do laço de repetição" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

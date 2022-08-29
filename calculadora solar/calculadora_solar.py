@@ -21,5 +21,4 @@ while (calcular != 1 or calcular !=2):
             kwh.calc()
             break
         elif (calcular != 1 or calcular != 2):
-            print("Você selecionou uma opção errada!")
             continue
