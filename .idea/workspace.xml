@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculadora solar/calculadora_solar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogos/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/forca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661727460676</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="implementação com sucesso de loop">
+      <created>1661800055064</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1661800055064</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update">
+      <created>1661800066395</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1661800066395</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,6 +401,7 @@
     <MESSAGE value="criação da logica de programação dos arquivos calculadora_solar.py, kwp.py e kwh.py" />
     <MESSAGE value="copia de segurança de código funcional" />
     <MESSAGE value="implementação do laço de repetição" />
+    <MESSAGE value="implementação com sucesso de loop" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
