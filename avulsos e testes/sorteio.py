@@ -2,25 +2,22 @@ import random
 
 jogadores = []
 
-escolha = 0
 
 print("*****SorteioPY******")
 print("Inicie escrevendo o nome do primeiro jogador!")
-while escolha == 0 or escolha.lower() == "j":
-    player = input("Diga o nome do jogador: ")
-    jogadores.append(player)
-    print("{} foi adicionado a lista".format(player))
+
+escolha = input("Diga o nome do jogador: ")
+
+while escolha.lower() != "sorteio":
+    jogadores.append(escolha)
+    print("{} foi adicionado a lista".format(escolha))
     print(jogadores)
-    escolha = input("Deseja adicionar mais um jogador ou iniciar o sorteio?(J/S): ")
+    escolha = input("Digite o nome do proximo jogador ou digite SORTEIO para iniciar: ")
     continue
 
 
-if escolha.lower() == "s":
+if escolha.lower() == "sorteio":
    escolhido = random.choice(jogadores)
    print("*********INICIANDO SORTEIO!********")
-   print("{} foi escolhido!".format(escolhido.upper()))
+   print("A primeira pessoa a jogar será.... {}!".format(escolhido.upper()))
    print("*****Fim de SorteioPy, BOM JOGO!******")
-
-elif escolha != "s" or escolha != "j":
-    print("Valor inválido.. programa encerrado!")
-
