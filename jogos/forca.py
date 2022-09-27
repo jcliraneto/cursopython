@@ -35,7 +35,7 @@ def jogar():
     if acertou:
         print("Parabens, você ganhou!! a palavra era {}".format(palavra_secreta))
     else:
-        print("Você perdeu!!, tente novamente")
+        print("Você perdeu!!, a palavra era {}, tente novamente!".format(palavra_secreta))
     print("fim do jogo!")
 
 
