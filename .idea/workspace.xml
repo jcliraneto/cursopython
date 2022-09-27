@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="backup de segurança">
+    <list default="true" id="6041763a-34be-4f87-b082-0bfd2c54f366" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogos/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogos/forca.py" afterDir="false" />
     </list>
@@ -412,7 +412,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663784336109</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="updates de segurança">
+      <created>1664305316050</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664305316050</updated>
+    </task>
+    <task id="LOCAL-00035" summary="updates">
+      <created>1664305341692</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664305341692</updated>
+    </task>
+    <task id="LOCAL-00036" summary="updates">
+      <created>1664305521349</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664305521349</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,6 +468,8 @@
     <MESSAGE value="implementação com sucesso de loop" />
     <MESSAGE value="update" />
     <MESSAGE value="backup de segurança" />
-    <option name="LAST_COMMIT_MESSAGE" value="backup de segurança" />
+    <MESSAGE value="updates de segurança" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
