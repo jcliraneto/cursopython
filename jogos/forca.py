@@ -1,23 +1,12 @@
 import random
 
+
 def jogar():
-    print("********************************")
-    print("****Bem vindo ao jogo FORCA!****")
-    print("********************************")
+    mensagem_de_abertura()
 
-    arquivo = open("palavras.txt", "r")
-    palavras = []
+    palavra_secreta = carrega_palavra_secreta()
 
-    with open("palavras.txt") as arquivo:
-        for linha in arquivo:
-            linha = linha.strip()
-            palavras.append(linha)
-
-
-    numero = random.randrange(0, len(palavras))
-
-    palavra_secreta = palavras[numero].upper()
-    letras_acertadas = ["_" for letra in palavra_secreta]
+    letras_acertadas = inicializa_letras_acertadas(palavra_secreta)
 
     enforcou = False
     acertou = False
@@ -28,20 +17,16 @@ def jogar():
 
     while not enforcou and not acertou:
 
-        chute = input("Qual a letra? ")
-        chute = chute.strip().upper()
+        chute = pede_chute()
 
         if chute in palavra_secreta:
-            index = 0
-            print("A letra {} está na palavra secreta!".format(chute))
-            for letra in palavra_secreta:
-                if chute == letra:
-                    letras_acertadas[index] = letra
-                index += 1
+
+            marca_chute_correto(chute, letras_acertadas, palavra_secreta)
+
         else:
             erros += 1
             print("A letra {} não está na palavra secreta".format(chute))
-            print("Você ainda pode errar {} vezes! ".format(6-erros))
+            print("Você ainda pode errar {} vezes! ".format(6 - erros))
 
         enforcou = erros == 6
         acertou = "_" not in letras_acertadas
@@ -52,6 +37,47 @@ def jogar():
     else:
         print("Você perdeu!!, tente novamente")
     print("fim do jogo!")
+
+
+def mensagem_de_abertura():
+    print("********************************")
+    print("****Bem vindo ao jogo FORCA!****")
+    print("********************************")
+
+
+def carrega_palavra_secreta():
+    arquivo = open("palavras.txt", "r")
+    palavras = []
+
+    with open("palavras.txt") as arquivo:
+        for linha in arquivo:
+            linha = linha.strip()
+            palavras.append(linha)
+
+    numero = random.randrange(0, len(palavras))
+
+    palavra_secreta = palavras[numero].upper()
+
+    return palavra_secreta
+
+
+def inicializa_letras_acertadas(palavra):
+    return ["_" for letra in palavra]
+
+
+def pede_chute():
+    chute = input("Qual a letra? ")
+    chute = chute.strip().upper()
+    return chute
+
+
+def marca_chute_correto(chute, letras_acertadas, palavra_secreta):
+    index = 0
+    print("A letra {} está na palavra secreta!".format(chute))
+    for letra in palavra_secreta:
+        if chute == letra:
+            letras_acertadas[index] = letra
+        index += 1
 
 
 if __name__ == "__main__":
